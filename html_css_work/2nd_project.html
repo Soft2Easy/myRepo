@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey-form</title>
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+
+  <main id="main">
+     <div id="tribute-info">
+		<h1 id="title" >Ralehlaka Holdings Survey Form</h1>
+	
+		<p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+	 </div>
+	 
+	 
+	 
+	<form id="survey-form" >
+	
+		<label for="name" id="name-label">Name</label></br>
+		<input type="text" id="name"><br>
+		
+		<label for="email" id="email-label">Email</label><br>
+		<input type="email" id="email"><br>
+		
+		<label for="number" id="number-label">Age(Optional)</label><br>
+		<input type="number" min="1" max="3" id="number"><br>
+		
+		<p>Which best business interest you have with us ?</p>
+		<select name="businesses" id="dropdown">
+			<option disabled selected value>Select current option</option>
+			<option value="property">Property(buildings)</option>
+			<option value="cars">Cars</option>
+			<option value="land">Land</option>
+			<option value="transport">Logistics</option>
+		</select>
+		
+		<p>Would you recommend a friend ?</p>
+		
+		<label>
+			<input type="radio" value="yes" name="recommend">Yes<br>
+		</label>
+		<label>
+			<input type="radio" value="no" name="recommend">No<br>
+		</label>
+        <label>
+			<input type="radio" value="maybe" name="recommend">Maybe<br>
+		</label>
+		
+		<p>What are your favourite traits of our organisation ?</p>
+		<select>
+			<option disabled selected value>Select current option</option>
+			<option>Admin personel</option>
+			<option>Service delivery</option>
+			<option>Deals</option>
+		</select>
+		
+        <p>What are(is) your favourite moment(s) with us?</p>
+		<label>
+		<input type="checkbox" value="meetings">Meetings
+		</label><br>
+		<label>
+		<input type="checkbox" value="team-building">Team buildings
+		</label><br>
+		<label>
+		<input type="checkbox" value="recruiting">Recreiting clients
+		</label><br>
+		<label>
+		<input type="checkbox" value="viewing">Property Viewer 
+		</label><br>
+		<label>
+		<input type="checkbox" value="stakeholders">Stakeholding
+		</label><br>
+		<label>
+		<input type="checkbox" value="selling">Selling
+		</label><br>
+		<label>
+		<input type="checkbox" value="mantain">Maintaining
+		</label><br>
+		<label>
+		<input type="checkbox" value="grow">Growing with us 
+		</label><br>
+		
+		<p>Any comments or suggestions ?</p>
+		<textarea id="comments" rows="auto" cols="auto"></textarea><br>
+		
+		<input type="submit" id="submit">
+		
+	</form>
+	
+   	</main>
+	
+	
+
+</body>
+</html>
+
+<style>
+
+body
+{
+	
+	background-color:#b3daff;
+	font-family: Helvetica;
+}
+
+div
+{
+	text-align:center
+}
+
+#survey-form
+{
+	background-color:#005cb3;
+	max-width:500px;
+	margin:auto;
+	padding-left:40px;
+	padding-top:40px;
+	padding-bottom:40px;
+	font-size:25x;
+	border-radius:25px;
+	
+}
+
+
+
+#img-div
+{
+    object-fit: cover;
+}
+
+#image {
+width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+
+</style>
